@@ -1,0 +1,158 @@
+.search-container {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-table;
+}
+
+.search-item {
+    /*width:70px;*/
+    /*height:70px;*/
+    color: #888888;
+    cursor: pointer;
+    padding: 14px 14px;
+
+}
+
+.search-item:active {
+    border: 0.5px solid #888888;
+    color: #ff8000;
+
+}
+
+.search-item:hover {
+    border: 0.5px solid #888888;
+    color: #ff8000;
+
+}
+
+.game-item {
+    background-color: #281934;
+    padding-right: 5px;
+    margin-left: -15px;
+}
+
+.game-hover:hover .game-item {
+    background-color: #2e2039;
+
+}
+
+.game-item a {
+    font-size: 12px;
+    border: 0.5 solid white;
+}
+
+.wrapper {
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.game-hover:hover img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.category-item {
+    text-decoration: none;
+    color: #888888;
+    font-size: 12px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.category-item:link {
+    text-decoration: none;
+}
+
+
+.category-item:visited {
+    text-decoration: none;
+}
+
+
+.category-item:hover {
+    text-decoration: none;
+}
+
+
+.category-item:active {
+    text-decoration: none;
+}
+
+.category-item:hover {
+    color: #ff8000;
+}
+.tree-content {
+    color: #888888;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.close-collapse {
+    /*border: 0.5px solid #888888;*/
+    /*border-radius: 2px;*/
+    /*padding: 1px 3px;*/
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    opacity: 0.1;
+}
+
+.open-collapse {
+    /*border: 0.5px solid #888888;*/
+    /*border-radius: 2px;*/
+    /*padding: 2px 2px;*/
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    opacity: 0.1;
+
+}
+
+.close-collapse:hover {
+    /*background-color: #888888;*/
+    color: #ff8000;
+    opacity: 1;
+
+}
+
+.open-collapse:hover {
+    /*background-color: #888888;*/
+    color: #ff8000;
+    opacity: 1;
+
+}
+
+.product-nav-links {
+    width: 100%;
+    display: table;
+    font-variant: none;
+    list-style: none;
+    color: #888888;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.product-nav-links:hover {
+    color: #ff8000;
+    text-decoration: none;
+}
+
+.auto-margin-game-list {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.category-title:hover {
+    color: #ff8000;
+}
+.category-title {
+    margin-left: 20px;
+    color: #888888;
+    cursor: pointer;
+}

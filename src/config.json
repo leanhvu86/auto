@@ -1,0 +1,8 @@
+{
+  "SERVER_URL": "https://trunggames.com/trunggame-0.0.1/api",
+  "THEME_COLORS": {
+    "PRIMARY": "#007bff",
+    "SECONDARY": "#fc3"
+  },
+  "VERSION": "10:25 04/07"
+}
